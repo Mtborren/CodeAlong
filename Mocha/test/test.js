@@ -35,7 +35,7 @@
 
 //now we have to add the 'require' call we named in app.js to enable the files to communicate.
 
-let convert = require('./app.js')
+let convert = require('./app.js');
 let assert = require('assert'); //change variable from var to let.
 
 describe('Temperature Conversion', function() {     //part one
