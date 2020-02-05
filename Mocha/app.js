@@ -15,13 +15,13 @@
 let convert = {}; 
 //instead of using two different functions here, we're attaching the new object named convert to our existing functions as a method.
 convert.cToF = function(celsius) {      
-    if(!Number.isInterger(celsius)) return undefined;
+    if(!Number.isInteger(celsius)) return undefined;
     return celsius * 9 / 5 + 32;
 }
 
 convert.fToC = function(fahrenheit) { 
     if(!Number.isInteger(fahrenheit)) return undefined;     
-    return (fahrenheit -32) * 5 / 9;
+    return (fahrenheit - 32) * 5 / 9;
 }
 
 module.exports = convert;
