@@ -1,14 +1,14 @@
 {
-  "name": "test",
+  "name": "mocha",
   "version": "1.0.0",
-  "main": "test.js",
-  "scripts": {
-    "test": "C:\Users\theClubhou.se\AppData\Roaming\npm\node_modules\mocha\bin\_mocha"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
-  "description": ""
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
 }
