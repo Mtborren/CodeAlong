@@ -2,7 +2,7 @@
   "name": "mocha",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "test.js",
   "directories": {
     "test": "test"
   },
