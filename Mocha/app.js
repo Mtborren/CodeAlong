@@ -2,7 +2,7 @@
 
 // let convert = {}; //this is used to expose/export our function to the test.js file.
 // cToF = function(celsius) {      //here the only parameter in the function named cToF is celsius, the value of celsius is then converted to fahrenheit.
-//     if(!Number.isInterger(celsius)) return undefined;
+//     if(!Number.isInteger(celsius)) return undefined;
 //     return celsius * 9 / 5 + 32;
 // }
 
